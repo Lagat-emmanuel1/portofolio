@@ -1,0 +1,44 @@
+/* Reset some default styles */
+body, ul, li, a {
+    margin: 40;
+    padding: 60;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: 2rem;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ff6347;
+}
+.footer{
+    color: aqua;
+}
